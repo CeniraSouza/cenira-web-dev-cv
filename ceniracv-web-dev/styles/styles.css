@@ -1,0 +1,94 @@
+/*Styling for CV - start*/
+
+.container {
+  /*   display: block; this is inherited*/
+  border: pink outset 10px;
+  border-radius: 10px;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  max-width: 1280px;
+  /* To stop crush on very small screens */
+  min-width: 300px;
+  overflow-x: auto;
+}
+
+.top {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid pink;
+  margin: 5px;
+}
+
+.name {
+  display: grid;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+.details li,
+.repo {
+  line-height: 20px;
+  text-align: center;
+}
+
+.glasses-hair {
+  border: 5px solid pink;
+  align-self: center;
+  border-radius: 100px;
+}
+
+.details {
+  text-align: center;
+  flex-wrap: wrap;
+}
+.summary,
+.end {
+  text-align: center;
+  padding: 0;
+  margin: 5px;
+}
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  border-top: 1px solid pink;
+  border-bottom: 1px solid pink;
+}
+.competencies,
+.achievements,
+.employment,
+.education,
+.tech-one,
+.tech-two {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.employment,
+.education {
+  border-bottom: 1px solid pink;
+  text-align: center;
+}
+ol {
+  padding-inline-start: 0;
+  margin: 5px;
+}
+.hist {
+  list-style: none;
+}
+.skills-last {
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.tech-one li,
+.tech-two li {
+  list-style: none;
+}
+.final {
+  border-top: 1px solid pink;
+  margin: 5px;
+}
