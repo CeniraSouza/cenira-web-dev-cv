@@ -92,6 +92,10 @@ ol {
 .tech-two li {
   list-style: none;
 }
+.comp{
+  font-size: 10px;
+  font-weight: 100;
+}
 .final {
   border-top: 1px solid pink;
   margin: 5px;
